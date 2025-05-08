@@ -15,17 +15,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".segmentation.SegmentationWelcomeActivity">
+        <activity android:name=".ocr.OcrWelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
-            android:name=".segmentation.SegmentationMainActivity">
+            android:name=".ocr.OcrMainActivity">
         </activity>
         <activity
-            android:name=".segmentation.SegmentationSettingsActivity"
+            android:name=".ocr.OcrSettingsActivity"
             android:label="Settings">
         </activity>
     </application>

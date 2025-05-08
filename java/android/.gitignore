@@ -18,3 +18,4 @@ fastdeploy/build
 fastdeploy/src/main/assets/models/*
 fastdeploy/.gradle
 fastdeploy/.idea
+local.properties
